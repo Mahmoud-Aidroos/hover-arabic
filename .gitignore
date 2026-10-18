@@ -1,0 +1,9 @@
+dist/
+node_modules/
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+.DS_Store
+extension/vendor/pdfjs/

@@ -1,0 +1,40 @@
+# Hover Arabic privacy policy
+
+Last updated: 18 October 2026
+
+Publisher: **Hover Arabic project**  
+Support and privacy contact: **aidroos7@gmail.com**
+
+Hover Arabic provides English-to-Arabic translation on hover and text selection, including in its PDF reader. This policy describes version 2.3.0. Automatic translation stays paused until you read the in-extension notice and choose **Enable automatic translation**. You can pause it at any time or limit site access through Chrome.
+
+## Information processed
+
+The extension reads the English word under your pointer or the short text you select. On a cache miss, it sends only that text and the language pair to the provider you choose: MyMemory by default, or Azure Translator if configured. The provider receives your IP address as part of the connection. No surrounding paragraph, page URL, browsing history, cookies or full PDF is sent to the translation provider. Inputs, editable areas and password fields are excluded.
+
+MyMemory receives text in its HTTPS request URL. If you choose to add a contact email in settings, MyMemory also receives that email. Azure receives text in an HTTPS POST body and your personal API key, with the resource region if configured. This extension does not embed or share a publisher API key.
+
+## PDFs and arXiv
+
+PDFs selected from your computer are parsed and rendered on your device. They are not uploaded. When you choose an arXiv PDF link or the current-arXiv-PDF button, the reader downloads that PDF directly from arxiv.org, without cookies or a referrer. arXiv receives the requested PDF URL and your IP address. The current tab URL is read only when you invoke the relevant extension action. It is used to open the requested paper, not to build a browsing history. No file path or filename is sent to the translation provider.
+
+## Storage and retention
+
+Chrome local extension storage holds your settings, consent choice, and any optional email or Azure credentials you enter. It is not synced to a browser account and is restricted to trusted extension contexts. Credentials are not encrypted by the extension; someone controlling your computer or Chrome profile may access them.
+
+Successful online translations are cached in Chrome session memory, with a maximum of 500 entries and 24-hour expiry. The cache is not a bundled dictionary. It is cleared on browser restart, extension reload/update/removal, provider or credential changes, pause/resume, or the Clear translation cache action. It survives extension service-worker suspension within the same browser session.
+
+## Purposes, sharing and limited use
+
+Data is used only to provide the requested translation, PDF-opening, settings and caching features. The extension has no publisher-operated translation server, analytics, advertising, tracking or data-sales feature. It does not send content to the publisher. Transfers to the chosen translation provider and, for a requested PDF download, arXiv are necessary to deliver these features. We do not use extension data for personalized advertising, profiling or sale. The extension's use and transfer of information follows the Chrome Web Store User Data Policy, including its Limited Use requirements.
+
+The external providers control their own processing and retention. Consult MyMemory's terms and API documentation at https://mymemory.translated.net/doc/en/tos.php and https://mymemory.translated.net/doc/spec.php, Microsoft's privacy statement at https://privacy.microsoft.com/privacystatement, and arXiv's privacy policy at https://info.arxiv.org/help/policies/privacy_policy.html. Do not translate sensitive text unless you are comfortable sending it to the selected provider.
+
+## Your choices and deletion
+
+You may leave automatic translation disabled, pause it, restrict allowed sites in Chrome, clear the translation cache, clear saved credentials/email, or uninstall the extension. Uninstalling removes its Chrome extension storage. Removing data locally does not delete records already retained by external providers; contact them for provider-side requests. The extension cannot recover or delete provider logs on your behalf.
+
+## Support and changes
+
+If you email the publisher or open a GitHub issue, that support message and the information you voluntarily provide are handled to respond to your request. Do not post credentials or private document text in public issues. The extension does not automatically attach your browsing activity or documents to support messages.
+
+We will update this policy when the extension's processing changes. Contact aidroos7@gmail.com with questions or requests relating to this extension.
