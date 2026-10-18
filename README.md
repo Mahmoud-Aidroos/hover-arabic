@@ -30,6 +30,10 @@ PDFs use the included reader, not Chrome's protected native PDF viewer. Scanned 
 
 No build is needed to run the extension. Full setup and tests: [extension/README.md](extension/README.md). Run `node extension/tests/unit.cjs` for core tests and install Playwright only if you want browser tests. `python3 BUILD_RELEASE.py` creates clean manual/store packages under dist/. [Publishing guide](PUBLISHING.md) and [release notes](RELEASE_NOTES.md) are included.
 
+## Acknowledgements
+
+Built with assistance from OpenAI Codex for implementation, testing and release preparation. Published and maintained by the Hover Arabic project.
+
 ## License
 
 Own source: MIT. Bundled PDF.js and data assets retain their upstream licenses. See [LICENSE](LICENSE) and [third-party notices](THIRD_PARTY_NOTICES.md). This is an independent project, not affiliated with EasyLingo or the external providers.
